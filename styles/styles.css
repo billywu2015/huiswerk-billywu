@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+/*////////////////////////
+    1. Global Styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*////////////////////////////////////////////////*/
+/*2. Typography *!*/
+
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 64px 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+input,
+button {
+    font-family: inherit;
+    color: #1C2B32;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+.hero-content button + a {
+    margin-left: -1.5px;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.hero-content {
+    padding: 120px 0 300px 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+}
+.hero-input {
+    padding: 14px 4px;
+    color: #1C2B32;
+    background: transparent;
+    border: 2px solid #1C2B32;
+    margin: 10px 0 0 0;
+    font-size: 30px;
+    border-radius: 50px 0 0 50px;
+    outline: transparent;
+}
+.hero-btn {
+    padding: 14px 4px;
+    color: #FFFFFF;
+    background: #1C2B32;
+    border: 2px solid #1C2B32;
+    margin-top: 10px 0 0 0;
+    font-size: 30px;
+    border-radius: 0 80px 80px 0;
+    outline: transparent;
+}
+
+.hero-btn + a {
+    margin-left: -1px;
+}
+
+.hero-input::placeholder {
+    color: #1C2B32;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero-input:hover::placeholder {
+    color: transparent;
+
+}
+
+.hero-main-btn {
+    padding: 20px 30px;
+    color: #FFFFFF;
+    background: #050303;
+    border: 2px solid #1C2B32;
+    margin-top: 10px 10px;
+    font-size: 10px;
+    border-radius: 80px 80px 80px 80px;
+    outline: transparent;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.quote {
+    box-shadow: 0 1px 4 rgba(0, 0, 0, 0.16);
+
+    margin: 1em;
+    backround-cplor: #FFFFFF;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius:4px;
+    border: 0 solid #1C2B32;
+    }
+
+.quote {
+    border: 1px solid gray;
+    padding: 30px 30px;
+    text-align: centre;
+}
+    .image-john {
+    }
+
+/*///////////// 3.3 Support /////////////*/
+.text-link {
+ color: gray;
+    }
+.text-link:hover {
+    text-decoration: none;
+}
+
+.callcenterfoto {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height:100%;
+        border-radius: 20px;
+}
+
+.contact-button{
+    border-radius: 1000px;
+    border: solid 2px;
+    padding: 20px;
+    background-color: #1C2B32;
+    color: white;
+    border-color: #1C2B32;
+}
+/*///////////// 3.4 Faq /////////////*/
+.hero-info {
+    border: 1px solid gray;
+}
+
+
+.content {
+    background: green;
+    text-align: justify;
+    color: white;
+}
+/*///////////// 3.5 Footer /////////////*/
+
+.hero-footer {
+    background-color:#050303;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
